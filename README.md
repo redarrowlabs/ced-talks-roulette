@@ -20,3 +20,15 @@ What's a CEd talk? A Continuing Eduction talk (lunch and learn).
     2. `> gem install sqlite3`
     3. `> install rails`
 6. Install bundler (todo: instructions)
+
+## Technology ##
+
+To make a pure api project with mongodb instead of a relational ORM:
+
+1.`$> rails new my_api --api --skip-active-record`
+2. Add `gem 'mongoid', '~> 6.0.0'` to the Gemfile
+3. `$> bundle install`
+4. `$> rails generate mongoid:config`
+
+
+http://funonrails.com/2014/03/building-restful-api-using-grape-in-rails/
