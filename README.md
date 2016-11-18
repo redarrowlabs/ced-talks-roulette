@@ -25,7 +25,7 @@ What's a CEd talk? A Continuing Eduction talk (lunch and learn).
 
 To make a pure api project with mongodb instead of a relational ORM:
 
-1.`$> rails new my_api --api --skip-active-record`
+1. `$> rails new my_api --api --skip-active-record`
 2. Add `gem 'mongoid', '~> 6.0.0'` to the Gemfile
 3. `$> bundle install`
 4. `$> rails generate mongoid:config`
