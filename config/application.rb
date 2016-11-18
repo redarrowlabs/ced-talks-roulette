@@ -26,5 +26,9 @@ module CedTalksRoulette
     # Middleware like session, flash, cookies can be added back manually.
     # Skip views, helpers and assets when generating a new resource.
     config.api_only = true
+
+    # ~rjb~ ?? This is supposed to allow me to not need require_relative on every file.
+    # config.paths.add "lib/api", glob: "**/*.rb"
+    # config.autoload_paths += Dir["#{Rails.root}/lib/api/*"]
   end
 end
